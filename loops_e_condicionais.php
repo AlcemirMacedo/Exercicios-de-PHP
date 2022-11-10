@@ -15,4 +15,11 @@ if ($idade < 18){
 echo "<br/>";
 echo ($idade > 18) ? "Maior de idade" : "Menor de idade";
 
+$menorDeIdade = ($idade < 18)? true : false;
+if($menorDeIdade){
+    echo "<br/>Menor";
+}else {
+    echo "<br/>Maior";
+}
+
 ?>
