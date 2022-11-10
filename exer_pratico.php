@@ -20,7 +20,7 @@ echo "Vida: ". $lista['vida'];
 ?>*/
 
 
-
+// código corrigido
 $lista = [
     'nome' => 'Alcemir',
     'idade' => 40,
