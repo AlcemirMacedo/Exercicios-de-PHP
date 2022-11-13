@@ -28,5 +28,5 @@ foreach($ingredientes as $chave => $valor){
 }
 
 echo "</ul>"
-~~~php
+~~~
 
