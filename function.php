@@ -31,5 +31,30 @@ $lista = [3, 5, 1];
 sort($lista);
 print_r($lista);
 
+//FUNÇÕES ANÔNIMAS
+echo "<hr/>";
+echo "<h3>Funcções Anônimas</h3>";
+
+$dizimo = function(int $valor){
+    return $valor * 0.1;
+};
+
+echo "10% de 92 é = ".$dizimo(92);
+
+echo "<br/><br/>";
+//Ou posso fazer dessa forma:
+$funcao = $dizimo;
+echo "10% de 85 é = ".$funcao(85);
+
+//ARROW FUNCTION (Função flecha)
+$dizimo2 = fn($valor) => $valor * 0.1;
+echo "<br/><br/>";
+echo "Testando a mesma função com Arrow Function<br/>";
+echo  "10% de 250 é = ".$dizimo(250);
+
+
+
+
+
 ?>
 
